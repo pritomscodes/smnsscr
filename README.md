@@ -1,0 +1,2 @@
+# smnsscr
+development by pritom
