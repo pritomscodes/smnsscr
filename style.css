@@ -1,0 +1,1125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lest-pri{
+  position:absolute;
+  text-align: center;
+ margin: auto;
+/*margin-left: 10cm; */
+}
+
+
+.pritom{
+  width:90% ;
+margin: auto; 
+box-shadow:  -1px -1px 15px rgba(156, 208, 228, 0.6) , 1px 1px 15px #65dfc9;
+
+}
+
+header .lg-pri{
+  text-align: center;
+}
+header {
+  
+    text-align: center;
+  
+   justify-content: space-between;
+   margin-left: 70px;
+     background-color: #198754;
+     height: 140px;
+     width: 90%;
+     
+     padding: 20px;
+     
+      }
+
+  
+
+
+   /* 
+    padding: 5px;
+    position: absolute;
+    padding-left: 1.5cm;
+    */
+
+
+/* position: relative;
+    padding: 10px;
+    padding-top: 20px; */
+
+  /*  position:relative;
+    margin-top: -3.4cm;
+  margin-left: 26cm; */
+  
+    
+.name{
+   
+  color: white;
+
+}
+
+.code{
+    width: 90%;
+    height: 1cm;
+    margin-left: 70px;
+  background-color:#198754;
+  color: white;
+  text-align: center;
+}
+
+.code b{
+    
+   padding-left: 200px;
+}
+
+
+
+
+
+.no{
+    
+  display: flex;
+  margin-left:20px;
+  height: 1cm;
+  background-color: white;
+  width:  90%;
+  margin-top: 5px;
+}
+
+.na{
+  margin-right: 20px;
+}
+
+
+
+#carouselExampleDark{
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  
+}
+
+
+.lest {
+ visibility: hidden;
+}
+
+
+
+
+
+
+.footer-clean {
+  margin-top: 2cm;
+  padding:50px 0;
+  background-color:#fff;
+  color:#4b4c4d;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+
+#tom a {
+  
+ /* background-color: white ; */
+ height: 50px;
+ width: 50px;
+ text-align: center;
+ border-radius: 50px;
+ 
+/* box-shadow: inset 1px 4px 3px 1px lavender,
+  -1px -4px -1px -1px black ; */
+ margin: 10px;
+
+
+}
+
+#tom a i { 
+  height: 20px;
+ width: 20px;
+ 
+}
+
+#tom a:hover {
+  transition: all .3s linear;
+ transform: scale(1.4) ;
+
+
+}
+
+.fa-facebook {
+ 
+
+  color: #3b5998  ;
+ }
+ 
+ .fa-instragram {
+ 
+  color: purple;
+ }
+ 
+  .fa-youtube {
+ 
+   color: #c4302b;
+ }
+ 
+.tom-p{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.tom-p a{
+ text-decoration: none;
+}
+
+
+.map-responsive{
+  overflow: hidden;
+  padding-bottom: 10%;
+  position: relative;
+  
+}
+
+.map-responsive iframe{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.container .btn{
+  margin-top: 30px;
+}
+
+
+.container  a{
+  text-decoration: none;
+  color: white;
+}
+
+.container .cardbody .pri-p p{
+  line-height: 35px;
+}
+.container .cardbody .pri-p  details {
+
+  text-decoration: none;
+}
+
+.container #pok {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ /* 
+div.desc {
+padding: 15px;
+  text-align: center;
+} */
+/*
+.row{
+   
+    background-color: darkgrey;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+}
+
+[class*="col"]{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+   text-align: center;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (min-width: 300px) {
+  .pic-1 img{
+    margin-right: 50px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .pic-1 img{
+    margin-left: 20px;
+  }
+} */
+
+
+
+@media only screen and (max-width: 600px) {
+         
+  .lest {
+    position:absolute;
+    text-align: center;
+    margin-left: 10px;
+   /* margin-left: 10cm; */
+  }
+
+.lest p{
+  font-size: x-small;
+}
+     
+
+header {
+   
+  text-align: center;
+
+ margin: auto;
+ 
+   background-color: #198754;
+   height: 220px;
+   width: 90%;
+   
+  
+   
+    }
+    .name h6{
+      visibility: hidden;
+    }
+    
+    .code{
+      width: 90%;
+      height: 1cm;
+      padding-top: 20px;
+      margin: auto;
+    background-color:#198754;
+    color: white;
+    text-align: center;
+    font-size: 8px;
+  }
+
+  .container .no{
+    
+    margin: auto;
+    padding: 0;
+      
+    display: none;
+  
+    height: 1cm;
+   
+    width:  90%;;
+
+  }
+
+  .container .na{
+    margin: auto;
+    padding: 0;
+  }
+
+  .container .no .na marquee{
+    margin: auto;
+  }
+    .name h3{
+        visibility: hidden;
+    }
+
+    .name h1{
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 17px;
+        left: 0;
+        right: 0;
+    }
+  .name{
+    margin-top: 80px;
+  }
+    .code b{
+      padding-top: 40px;
+      padding-left: 10px;
+   }
+
+
+   .pic-1{
+   text-align: center;
+    margin-left: 30%;
+    position:absolute;
+  }
+   .pic-1 img{
+  
+     width: 85px;
+     height: 80px;
+   }
+   .pic-2{
+   visibility: hidden;
+   }
+
+   .container .row #tompri{
+     overflow: hidden;
+   }
+  
+   .container .row #tompri-2{
+    overflow: hidden;
+  }
+  .container .row #tompri-3{
+    overflow: hidden;
+  }
+  .container .row #tompri-4{
+    overflow: hidden;
+  }
+
+  
+.container .cardbody .pri-p p{
+  line-height: 18px;
+  font-size: 11px;
+}
+
+.container .card{
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+   
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 100px;
+  float: none;
+
+}
+
+
+
+.container #mxico{
+  margin-left: 15px;
+  width: 90%;
+  height: 500px;
+}
+
+.container table #moxpox{
+  visibility: hidden;
+}   
+  
+
+
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) 
+  @media only screen and (min-width: 601px) {
+       
+header {
+   
+    text-align: center;
+  
+    background-color:#198754;
+   margin-left: 32px;
+     height: 220px;
+     width: 90%;
+     
+     padding: 20px;
+     
+      }
+
+      .code{
+        width: 90%;
+        height: 1cm;
+        margin-left: 32px;
+     
+      color: white;
+      text-align: center;
+    }
+.name{
+  left: 0;
+  top: 0;
+  text-align: center;
+ 
+}
+      .name h3{
+          visibility: hidden;
+      }
+
+      .name h1{
+     
+        position: relative;
+        padding: 20px;
+          margin-top: 0cm;
+          margin-left: 15px;
+          font-size: 25px;
+      }
+      
+      .code b{
+    
+        padding-left: 60px;
+     }
+  
+     .pic-2{
+     position:absolute;
+      margin-left: 13cm;
+      margin-top: 0;
+      margin-bottom: 15cm;
+     }
+     .pic-2 img{
+      
+       width: 85px;
+       height: 80px;
+     }
+     .pic-1{
+       margin-right: 15cm;
+      
+     }
+.pic-1 img{
+  width: 85px;
+  height: 80px;
+}
+}
+
+   /*  .pic-1{
+      top: 0;
+      margin: 0;
+      padding: 0;
+      margin-right: 18cm;
+      
+     
+    }
+     .pic-1 img{
+       position: absolute;
+        margin-top: .5cm;
+        width: 85px;
+         height:80px;
+        
+     }
+     .pic-2{
+      top: 0;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      margin-left: 14.3cm;
+      margin-top: 1cm;
+     
+    }
+     .pic-2 img{
+        width:85px;
+         height:80px;
+     } 
+*/
+     
+        /* margin-top: 1.4cm;
+         margin-top: 1cm;
+         margin-right: 80px; */
+       
+      
+   
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    
+header {
+    display: flex;
+    text-align: center;
+  margin-top: 0;
+   justify-content: space-between;
+   margin-left: 40px;
+     background-color: #198754;
+     height: 200px;
+     width: 90%;
+     
+     padding: 20px;
+     
+      }
+
+
+      .pic-1 img{
+        margin-top: 20px;
+         width: 80px;
+         height: 75px;
+       }
+
+       .pic-2 img{
+        margin-top: 20px;
+         width: 80px;
+         height: 75px;
+       }
+
+      .name {
+        margin-top: 6px;
+       
+      }
+
+      .name h6{
+        margin-bottom: 20px;
+      }
+      .name h1{
+        font-size: 22px;
+      }
+      .name h3{
+          visibility: hidden;
+      }
+      
+      .code b{
+    
+        padding-left: 100px;
+     }
+
+         
+.no{
+    
+  display: flex;
+  margin-left:40px;
+  height: 1cm;
+  background-color: white;
+  width:  90%;
+  margin-top: 5px;
+}
+
+.na{
+  margin-right: 20px;
+}
+.code{
+    width: 90%;
+    height: 1cm;
+    margin-left: 40px;
+  background-color:#198754;
+  color: white;
+  text-align: center;
+}
+
+.container #mxico{
+  justify-content:space-between ;
+  margin: 50px;
+  width: 220px;
+}
+
+
+  } 
+
+
+  @media only screen and (min-width: 900px) {
+
+    .lm-pri{
+      visibility: hidden;
+    }
+
+            
+ header .lg-pri {
+text-align: center;
+justify-content: center;
+  font-size: 10px;
+ margin-left: 5cm;
+     
+     }
+header {
+    display: flex;
+    text-align: center;
+  
+   justify-content: space-between;
+   margin-left: 50px;
+     background-color: #198754;
+     height: 200px;
+     width: 90%;
+     
+     padding: 20px;
+     
+      }
+
+      .name {
+        margin-top: 25px;
+       
+      }
+      .name h2{
+        font-size: 10px;
+      }
+      .name h3{
+          visibility: hidden;
+      }
+      
+      .code b{
+    
+        padding-left: 100px;
+     }
+
+         
+.no{
+    
+  display: flex;
+  margin-left:50px;
+  height: 1cm;
+  background-color: white;
+  width:  90%;
+  margin-top: 5px;
+}
+
+.na{
+  margin-right: 20px;
+}
+.code{
+    width: 90%;
+    height: 1cm;
+    margin-left: 50px;
+  background-color:#198754;
+  color: white;
+  text-align: center;
+}
+
+.container #mxico{
+  justify-content:space-between ;
+  margin: 50px;
+  width: 220px;
+}
+
+
+
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+   
+header {
+ 
+  display: flex;
+  text-align: center;
+
+ justify-content: space-between;
+ margin-left: 50px;
+   background-color: #198754;
+   height: 170px;
+   width: 90%;
+   margin-bottom: 0px;
+   padding-bottom: 50px;
+   
+   
+    }
+
+       
+.name{
+   margin-left: .3cm;
+  color: white;
+ 
+
+}
+.name h1{
+  font-size: 28px;
+}
+
+.code{
+    width: 90%;
+    height: 1cm;
+    margin-left: 50px;
+  background-color:#198754;
+  color: white;
+  text-align: center;
+}
+
+.code b{
+    
+   padding-left: 100px;
+}
+
+
+.no{
+    
+    display: flex;
+    margin-left: 90px;
+    height: 1cm;
+    background-color: white;
+    width:  80%;;
+}
+
+.na{
+    margin-right: 20px;
+} 
+
+
+
+  } 
+
+
+
+  @media only screen and (min-width: 1000px) { 
+    .pritom #caro{
+      margin-left: 100px;
+     }
+     
+  }
+  
+  @media only screen and (min-width: 1050px) {
+  
+    header {
+     
+      display: flex;
+      text-align: center;
+    position: relative;
+     justify-content: space-between;
+     margin-left: 55px;
+       background-color: #198754;
+       height: 170px;
+       width: 90%;
+       
+      
+       
+        }
+    
+        .pritom #caro{
+          padding: 0;
+          margin-left: 0;
+         }
+    .name{
+       margin: auto;
+      color: white;
+
+    
+    }
+    .name h3{
+      visibility: visible;
+      font-size: 20px;
+    }
+    .name h1{
+      font-size: 30px;
+    }
+    
+    .code{
+      padding-top: 1.24cm;
+        width: 90%;
+        height: 2cm;
+        margin-left: 55px;
+      background-color:#198754;
+      color: white;
+      text-align: center;
+    }
+    
+    .code b{
+        
+       padding-left: 100px;
+    }
+    
+    
+    .no{
+        
+        display: flex;
+        margin-left: 70px;
+        height: 1cm;
+        background-color: white;
+        width:  80%;
+    }
+    
+    .na{
+        margin-right: 20px;
+    } 
+    
+.container #mxico{
+  margin-left: 0px;
+  width: 23%;
+  height: auto;
+  margin-left: 25px;
+ 
+}
+
+.pritom #caro{
+  margin-left: 0px;
+  width: 70%;
+  height: auto;
+}
+      } 
+      
+      /* Extra large devices (large laptops and desktops, 1200px and up) */
+        
+
+
+
+
+   /*   @media only screen and (mix-width: 1180px) {
+        .pic-2{
+          margin-right: 2cm;
+        }
+      }  */ 
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+     
+    
+     
+     margin:auto;
+       background-color: #198754;
+       height: 180px;
+       
+       width: 90%;
+     
+       
+       
+       
+        }
+
+        .pritom #caro{
+
+    
+          margin-left:0px;
+         }
+        .container #carousel{
+          height: 300px;
+        }
+        
+        .name{
+          
+          margin: auto;
+          
+        }
+
+        .name h1{
+          margin-top: 1cm;
+          font-size: 35px;
+        }
+        .name h3{
+            visibility: visible;
+        }
+        
+        .code b{
+         
+          padding-left: 180px;
+       }
+ .code{
+   padding-top: 1.4cm;
+   height: 2cm;
+   
+   margin:auto;
+   position:relative;
+ }
+
+  .pic-1 img{
+    position: relative;
+    width: 105px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+  .pic-2 img{
+    width: 105px;
+    height: 100px;
+    
+  }
+
+  /*
+  .container #mxico{
+    margin: auto;
+     width: auto;
+     text-align: center;
+     height: 500px;
+   }
+
+   .container #caro{
+    width: 100%;
+  }  */
+
+.container #how{
+  width: 100%;
+  padding: 40px;
+}
+  
+    } 
+    
+
+
+
+       
+    
+
+
+
+
+
+    @media only screen and (min-width: 1660px) {
+      
+     
+      header {
+         
+        
+       margin:auto;
+         background-color: #198754;
+         height: 170px;
+         width: 90%;
+         
+         padding: 20px;
+         
+          }
+
+          .pritom #caro{
+
+            height: 5cm;
+              margin-left:0px;
+             }
+
+          .code{
+            width: 90%;
+            height: 1cm;
+            margin: auto;
+          background-color:#198754;
+          color: white;
+          text-align: center;
+        }
+
+        .no{
+          margin-left: 130px;
+        }
+        }      
+    /* Large devices (laptops/desktops, 992px and up) 
+    @media only screen and (min-width: 992px) {
+      
+            
+header {
+   
+  
+ margin-left: 40px;
+   background-color: #198754;
+   height: 170px;
+   width: 90%;
+   
+   padding: 20px;
+   
+    }
+
+    .code{
+      width: 90%;
+      height: 1cm;
+      margin-left: 40px;
+    background-color:#198754;
+    color: white;
+    text-align: center;
+  }
+
+  .name{
+    margin-bottom: 10cm;
+    margin-left: 4cm;
+  }
+  
+    .name h3{
+        visibility: visible;
+    }
+*/
+   
+
+   /* .pic-1{
+     
+      margin-top: 1.4cm;
+      width: 5px;
+       height:0px;
+      position: absolute; */
+  /*
+   .pic-2{
+
+   
+       margin-top: 1.4cm;
+      
+       margin-right: 80px;
+    
+      width:5px;
+       height:0px;*/
+   
+ 
+  
