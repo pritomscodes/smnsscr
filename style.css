@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+   
 }
+
 
 .lest-pri{
   position:absolute;
@@ -16,6 +19,7 @@
   width:90% ;
 margin: auto; 
 box-shadow:  -1px -1px 15px rgba(156, 208, 228, 0.6) , 1px 1px 15px #65dfc9;
+
 
 }
 
@@ -36,7 +40,38 @@ header {
      
       }
 
-  
+ 
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 340px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  background-color: rgb(90, 236, 127);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 10px 8px 15px 10px rgba(33, 212, 78, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
 
 
    /* 
@@ -498,8 +533,10 @@ div.gallery {
 .container table #moxpox{
   visibility: hidden;
 }   
-  
 
+.react{
+  width: 300px;
+}
 
 
   }
@@ -660,6 +697,7 @@ header {
         padding-left: 100px;
      }
 
+   
          
 .no{
     
@@ -687,6 +725,12 @@ header {
   justify-content:space-between ;
   margin: 50px;
   width: 220px;
+}
+
+
+.react{
+
+  width: 600px;
 }
 
 
@@ -767,6 +811,10 @@ header {
 }
 
 
+.react{
+  
+  width: 1000px;
+}
 
   }
   
